@@ -1,0 +1,43 @@
+h1,
+h2,
+h3,
+p {
+  text-align: center;
+}
+body {
+  background-image: url(https://i.pinimg.com/1200x/10/62/b6/1062b66221c2153e3791142b05246309.jpg);
+  color: aliceblue;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+
+.perfil {
+  width: 80%;
+  background-color: rgb(117, 41, 65);
+  margin-left: auto;
+  margin-right: auto;
+  padding: 20px;
+  max-width: 500px;
+  border-radius: 8px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.4);
+  border-style: solid;
+}
+
+.perfil:hover {
+  transform: scale(1.02);
+  transition: all 0.8s;
+}
+
+img {
+  max-width: 50%;
+  border-radius: 50%;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.4);
+  transition: transform 0.5s;
+  border-style: solid;
+  margin-left: 25%;
+}
+
+a {
+  color: white;
+}
