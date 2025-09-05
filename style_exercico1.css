@@ -10,6 +10,7 @@ body {
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
+  position: relative;
 }
 
 .perfil {
@@ -29,7 +30,7 @@ body {
   transition: all 0.8s;
 }
 
-img {
+.foto_perfil {
   max-width: 50%;
   border-radius: 50%;
   box-shadow: 0 4px 6px rgba(0, 0, 0, 0.4);
@@ -40,4 +41,10 @@ img {
 
 a {
   color: white;
+}
+
+.pink {
+  position: absolute;
+  top: 0;
+  width: 120px;
 }
